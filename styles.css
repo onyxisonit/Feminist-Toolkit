@@ -27,7 +27,6 @@ body {
 }
 
 .header h1 {
-
   font-size: 90px;
   font-weight:150;
 }
@@ -81,14 +80,13 @@ body {
 
 .navhead a:hover{
   font-size: 28px;
-  text-shadow:pink;
 }
 
 
 .middle-column {
   flex: 50%;
   background-color:white;
-  padding: 10px;
+  padding: 20px;
   color: black;
   text-align: center;
 }
@@ -98,11 +96,21 @@ body {
   float: center;
   padding: 50px;
 }
+
+.aim h2 {
+  font-weight: normal;
+  color:rgba(107,70,70);
+}
+.aim p {
+  padding: 20px;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 50px;
+}
 .img-box img {
   display: block;
   width: auto;
   height: auto;
-  
 }
 
 .image_overlay{
@@ -116,9 +124,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 13px;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.5s;
+}
+
+.image_title{
+  margin: 0% 10% 0% 10%;
+}
+.image_descp {
+  margin: 4% 10% 0% 10%; 
 }
 
 .image_overlay-blur {
